@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.nav-list{
+    background-color: rgb(70, 76, 70);
+}
+.logo img{
+    width: 50%;
+    height: 100%;
+}
+.nav-list{
+    display: flex;
+    width: 100%;
+    align-items: top;
+}
+
+.nav-list li{
+    list-style-type: none;
+    padding: 10px 0px;
+    margin-right: 5%;
+
+    
+}
+
+.nav-list li a{
+    color: white;
+    text-decoration: none;
+    width: 5px;
+}
+
+.nav-list li a:hover{
+    color: black;
+}
+
+.search{
+    float: right;
+    padding-right: 60px;
+    padding-top: 10px;
+    width: 120px;
+}
+
+.nav-list input{
+    border: 2px solid black;
+    border-radius: 15px;
+    width: 120px;
+    padding: 3px 17px;
+}
+.nav-list .fa{
+    display: flex;
+}
+
+
+.box-main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    max-width: 50%;
+}
+
+.firstclass{
+    width: 80%;
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+}
+
+.secondclass img{
+        width: 200px;
+        padding: 40px 20px;
+}
+
+.text-big{
+    font-size: 25px;
+}
+
+.text-small{
+    font-size: 20px;
+    color: brown;
+    margin: 20px 0;
+}
+
+.btn{
+
+        width: 70px;
+        border-radius: 6px;
+        padding: 2px 0;
+        color: blueviolet;
+        background: none;
+        border: 2px solid black;
+        cursor: pointer;
+}
+.sectiontag{
+    font-size: 30px;
+    text-align: -webkit-center;
+    max-width: 40%;
+    margin-left: 300px;
+}
+
+.contact{
+    padding-left: 200px;
+    padding-top: 40px;
+    width: 50%;
+}
+
+.contact h2{
+    color: rgb(77, 82, 77);
+    font-size: 30px;
+    padding-top: 10PX;
+}
+
+.contact p{
+    padding: 10px;
+    color: blueviolet;
+    font-size: 10px;
+}
+
+.whatsapp{
+    padding-left: 200px;
+}
+
+.whatsapp img{
+    height: 40px;
+    width: 40px;
+}
